@@ -14,7 +14,7 @@ const UIComponent = () => {
     const apiResponse = useSelector(state => state.apiReducers.data)
     const isDataLoaded = useSelector(state => state.apiReducers.dataLoaded)
     const uiVersion = useSelector(state => state.uiReducers)
-    const [mode, setMode] = useState('readonly');
+    const [mode] = useState('readonly');
     const disabled = mode === 'disabled';
     const readOnly = mode !== 'readonly';
     const plaintext = mode === 'plaintext';
