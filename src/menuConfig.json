@@ -3,7 +3,7 @@
         "title":"Home",
         "eventKey":"home",
         "icon":"home",
-        "path":"/home",
+        "path":"/",
         "display":true
     },
     {

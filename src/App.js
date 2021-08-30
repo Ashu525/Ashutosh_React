@@ -4,7 +4,7 @@ import './App.css';
 import 'rsuite/dist/styles/rsuite-dark.css';
 
 import Menu from './components/Menu'
-// import Home from './components/Home'
+import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Themes from './components/Themes'
@@ -14,7 +14,7 @@ function App() {
   return (
     <Menu>
       <Switch>
-        <Route exact path="/" component={Themes} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/themes" component={Themes} />
