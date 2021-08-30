@@ -1,0 +1,28 @@
+[
+    {
+        "title":"Home",
+        "eventKey":"home",
+        "icon":"home",
+        "path":"/home",
+        "display":true
+    },
+    {
+        "title":"About Us",
+        "eventKey":"about",
+        "icon":"aboutus",
+        "path":"/about",
+        "display":true
+    },{
+        "title":"Contact Us",
+        "eventKey":"contact",
+        "icon":"contact",
+        "path":"/contact",
+        "display":true
+    },{
+        "title":"Themes",
+        "eventKey":"themes",
+        "icon":"",
+        "path":"/themes",
+        "display":true
+    }
+]

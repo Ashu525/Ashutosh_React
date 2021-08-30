@@ -1,0 +1,13 @@
+.v1 {
+    color:hsl(235, 27%, 28%);
+    font-style: italic;
+    font-size: large;
+    background-color:aliceblue;
+}
+
+.v2 {
+    color:hsl(187, 39%, 91%);
+    font-style:oblique;
+    font-size: small;
+    background-color:rgb(67, 54, 122);
+}
