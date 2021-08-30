@@ -14,7 +14,7 @@ function App() {
   return (
     <Menu>
       <Switch>
-        <Route exact path="/themes" component={Home} />
+        <Route exact path="/" component={Themes} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/themes" component={Themes} />
